@@ -1,0 +1,13 @@
+.greyLine {
+    background-color: grey;
+    height: 100px;
+    padding: 50px 10px 50px 10 px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    }
+
+    .blackLine {
+        margin-bottom: 0px;
+        border-top: 10px solid black;
+        
+    }

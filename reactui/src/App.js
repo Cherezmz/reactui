@@ -1,13 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './header'
+import Footer from './footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        test 2
-      </header>
+    <div className="doNotTouch">
+
+
+
+
+      <Header />
+      <Footer />
+
+
+
+
+
+
+
     </div>
   );
 }
