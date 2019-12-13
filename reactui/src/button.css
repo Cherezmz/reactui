@@ -1,0 +1,15 @@
+.upperButton {
+    
+        background-color: grey;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 70%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        transition: 0.6s;
+        
+      
+}

@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './header'
 import Footer from './footer'
+import Button from './button'
+
+
+
+
 
 function App() {
   return (
@@ -12,6 +17,7 @@ function App() {
 
 
       <Header />
+      <Button />
       <Footer />
 
 
@@ -25,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+
