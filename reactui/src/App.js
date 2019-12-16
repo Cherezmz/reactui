@@ -9,6 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      //inicialPokemon is not defined from the very begining.
       inicialPokemon: []
     }
     this.newPokemon = this.newPokemon.bind(this)
@@ -32,7 +33,9 @@ class App extends Component {
   }
 
   newPokemon() {
-    console.log("1111111")
+
+    //console.log("1111111")
+
 
   }
 
@@ -42,7 +45,7 @@ class App extends Component {
       <div className="doNotTouch">
 
         <Header />
-        <Button />
+        <Button onclick={this.newPokemon} />
         <Button />
         <Button />
         <Button />

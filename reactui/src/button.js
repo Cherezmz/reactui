@@ -4,12 +4,16 @@ import './button.css'
 
 
 
-function Button() {
+function Button(props) {
+
+    console.log(props)
+    //props are empty
+    //props are not defined
     return (
         <div>
             <div className="upperButtonDiv">
-                <button className="upperButton">
-                    Test</button>
+                <button className="upperButton" button onClick={props.onclick}>
+                </button>
             </div>
 
         </div>
