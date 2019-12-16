@@ -21,7 +21,7 @@ class App extends Component {
       .then(res => res.json())
       .then(res => {
         console.log(res)
-        //this.setState({ inicialPokemon: res })
+        this.setState({ inicialPokemon: res })
 
 
 
@@ -36,11 +36,15 @@ class App extends Component {
 
   }
 
+
   render() {
     return (
       <div className="doNotTouch">
 
         <Header />
+        <Button />
+        <Button />
+        <Button />
         <Button />
         <Footer />
 

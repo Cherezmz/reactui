@@ -7,9 +7,10 @@ import './button.css'
 function Button() {
     return (
         <div>
-            <button className="upperButton">
-                Test</button>
-
+            <div className="upperButtonDiv">
+                <button className="upperButton">
+                    Test</button>
+            </div>
 
         </div>
     )
